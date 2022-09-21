@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 const campsiteRouter = require('./routes/campsiteRouter');
 const promotionRouter = require('./routes/promotionRouter');
 const partnerRouter = require('./routes/partnerRouter');
-const authenticate = require('./authenticate');
+const authenticate = require ('.//authenticate');
 
 const mongoose = require('mongoose');
 
